@@ -1,4 +1,4 @@
-import "../styles/components/"
+import "../styles/components/Settings.scss"
 
 function Settings() {
   return (
@@ -8,7 +8,7 @@ function Settings() {
                 <div className="light-theme-btn">
                     <i className="bi bi-sun"></i>
                 </div>
-                <div className="dark-theme-btn">
+                <div className="ldark-theme-btn">
                     <i className="bi bi-moon"></i>
             </div>  
             </div>
