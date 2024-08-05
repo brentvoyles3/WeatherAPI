@@ -1,0 +1,12 @@
+@use '../base/reset';
+
+.App-dark{
+  background-color: #18191a;
+  color: #e4e6eb;
+  overflow: hidden;
+}
+.App-light {
+  background-color: #f0f2f5;
+  color: #050505;
+  overflow: hidden;
+}

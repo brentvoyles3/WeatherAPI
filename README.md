@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+{/* Dependencies */}
+{/* npx create-react-app */ }
+{/* npm install react-router-dom */ }
+{/* npm install sass --save-dev */}
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

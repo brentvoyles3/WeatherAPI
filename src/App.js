@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header"
+import Main from "./components/Main"
+import "./styles/components/App.scss"
+import "bootstrap-icons/font/bootstrap-icons.css"
+
+{/* Dependencies */}
+{/* npx create-react-app */ }
+{/* npm install react-router-dom */ }
+{/* npm install sass --save-dev */}
+{/* npm i bootstrap-icons */}
 
 function App() {
+  const dark = false;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'App-dark'}>
+    <Header/>
+    <Main/>
     </div>
   );
 }
